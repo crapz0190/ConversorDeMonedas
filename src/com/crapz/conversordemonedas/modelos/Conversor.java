@@ -20,7 +20,8 @@ public class Conversor {
                 .setPrettyPrinting()
                 .create();
 
-        String API_KEY = "bf3fdcbf8d929d0973334891";
+        // COLOCAR LA API_KEY
+        String API_KEY = "COLOCA_AQUI_TU_API_KEY";
 
         String direccion = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/pair/" + convertFrom + "/" + convertTo + "/" + quantity;
 
