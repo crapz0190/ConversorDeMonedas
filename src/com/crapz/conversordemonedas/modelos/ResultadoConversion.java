@@ -2,8 +2,6 @@ package com.crapz.conversordemonedas.modelos;
 
 import java.math.BigDecimal;
 
-// Nota: Gson mapea automáticamente 'conversion_result' a 'conversionResult'
-// si no usas FieldNamingPolicy, pero lo ajustaremos.
 public class ResultadoConversion {
     private String result;
     private String base_code;

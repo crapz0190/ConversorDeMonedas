@@ -14,7 +14,7 @@ import java.net.http.HttpResponse;
 public class Conversor {
 
     public BigDecimal convertirMonedas(String convertFrom, String convertTo, BigDecimal quantity) {
-        // se esa LOWER_CASE_WITH_UNDERSCORES para mapear "conversion_result"
+        // se usa LOWER_CASE_WITH_UNDERSCORES para mapear "conversion_result"
         Gson gson = new GsonBuilder()
                 .setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
                 .setPrettyPrinting()
