@@ -15,6 +15,23 @@ El programa se ejecuta en un ciclo continuo mostrando un menú hasta que el usua
 
 ---
 
+## 🔑 Configuración de la API Key
+
+La clase `Conversor` requiere una clave de API válida de [ExchangeRate-API](https://www.exchangerate-api.com/).
+
+### Implementación en la Clase `Conversor`
+
+La clave de API debe ser configurada para que la aplicación funcione correctamente.
+
+El proyecto está configurado para leer la clave desde la variable llamada **`API_KEY`**
+
+```java
+// En la clase com.crapz.conversordemonedas.modelos.Conversor:
+String API_KEY = "COLOCA_AQUI_TU_API_KEY";
+//
+```
+---
+
 ## 🏗️ Estructura del Proyecto
 
 El código está organizado en tres paquetes principales:
